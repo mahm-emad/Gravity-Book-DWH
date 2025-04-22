@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Gravity Book DWH SSAS Last one</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>LNkIYhL8yqBcDotYOAZUYegvs/Y=1/28/2025 5:47:38 PM1/28/2025 5:47:38 PM</TimeStamp>
+        <ID>
+          <String>Gravity Book DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>MtdhDsG0jodewmdGiyA/iEWC/qY=1/28/2025 5:48:09 PM1/28/2025 5:48:09 PM</TimeStamp>
+        <ID>
+          <String>Gravity Book DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>v8BTv+hy6UVhHWqE5wAxuqwjHxA=1/28/2025 11:13:08 PM1/28/2025 5:49:49 PM</TimeStamp>
+        <ID>
+          <String>Dim Book</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TxkhYuNnd0PXyC+uWKasWQAtYPE=1/28/2025 6:08:10 PM1/28/2025 5:49:49 PM</TimeStamp>
+        <ID>
+          <String>Dim Author</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pPZ2qK0AWKnLzASyexfYT9GeRWw=1/28/2025 11:08:37 PM1/28/2025 5:49:49 PM</TimeStamp>
+        <ID>
+          <String>Dim Address</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jg12pSAbWGdRov0dSbrvY4Vu+5U=1/28/2025 6:10:26 PM1/28/2025 5:49:49 PM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>azfryXbhZt3VWtNhvn+5pE1gAxg=1/28/2025 6:06:36 PM1/28/2025 5:49:49 PM</TimeStamp>
+        <ID>
+          <String>Dim Customer Address</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cPzsPk/EFFgi+J+yFHzBvpuGggg=1/28/2025 6:11:27 PM1/28/2025 5:49:49 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1acPLOYZX9b/awaf4NWmOR83lj4=1/28/2025 11:14:25 PM1/28/2025 11:14:25 PM</TimeStamp>
+        <ID>
+          <String>Dim Book Author</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>CN8CIREEdHZxjdnQU+SDCLmxXNA=1/28/2025 11:08:37 PM1/28/2025 5:49:49 PMbiLoedeWM2LfLtKcQZR1Gp+tDcU=1/28/2025 5:49:49 PM1/28/2025 5:49:49 PM</TimeStamp>
+        <ID>
+          <String>Gravity Book DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>3kUBQCRLQqEWd81+pEsJkTE08fo=1/28/2025 11:14:59 PM1/28/2025 10:57:19 PMuQcFnR35x15soOZoqolAbCHdw1U=1/28/2025 10:57:19 PM1/28/2025 10:57:19 PM</TimeStamp>
+        <ID>
+          <String>Gravity Book DWH 1</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>QNG8S5203R1EfC6iAxgvW6cwKOU=1/28/2025 5:47:21 PM1/28/2025 5:47:21 PM</TimeStamp>
+      <ID>
+        <String>Gravity Book DWH SSAS Last one</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-01-28T21:15:15.636667Z</LastDeployed>
+</DeploymentSnapshot>

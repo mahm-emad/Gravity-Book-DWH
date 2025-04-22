@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Gravity Book DWH SSAS Last one", "Gravity Book DWH SSAS Last one\Gravity Book DWH SSAS Last one.dwproj", "{F7F9B0E9-AA87-40BF-9921-5120DF434062}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7F9B0E9-AA87-40BF-9921-5120DF434062}.Development|Default.ActiveCfg = Development
+		{F7F9B0E9-AA87-40BF-9921-5120DF434062}.Development|Default.Build.0 = Development
+		{F7F9B0E9-AA87-40BF-9921-5120DF434062}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
